@@ -1,0 +1,19 @@
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.align-item-center {
+  align-items: center;
+}
+.list-styling {
+  list-style: none;
+}
+.text-decoration {
+  text-decoration: none;
+}
+
+.menus {
+  margin-left: 10px;
+}

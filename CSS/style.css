@@ -1,0 +1,65 @@
+/* Common Variables */
+:root {
+  --black: #000000;
+  --light-grey: #eee;
+}
+/* For resetting CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body,
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: var(--light-grey);
+}
+/* Header Designing */
+#navbar {
+  background-color: var(--light-grey);
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#navbar img {
+  width: 10%;
+  height: 77px;
+  margin-left: 45px;
+}
+#navbar ul {
+  min-height: 14vh;
+}
+#navbar ul li a {
+  color: var(--black);
+}
+.menu-items {
+  margin-left: 28rem;
+}
+
+.menu-items li {
+  padding: 11px;
+  margin: 14px 40px;
+}
+#navbar ul li a {
+  font-size: 1.2rem;
+}
+
+.hero-container h1 {
+  margin-bottom: 13px;
+}
+.hero-container input[type="email"] {
+  margin-bottom: 14px;
+
+  width: 25%;
+  height: 4vh;
+}
+.hero-container button {
+  background-color: #f1c40f;
+  border: none;
+  font-size: 16px;
+  font-weight: 800;
+  padding: 10px 44px;
+  cursor: pointer;
+}
