@@ -18,6 +18,10 @@ body,
 }
 /* Header Designing */
 #navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
   background-color: var(--light-grey);
   max-width: 1400px;
   margin-left: auto;
@@ -66,7 +70,7 @@ body,
 
 /* Premium Material Section */
 .materials-container {
-  margin: 109px 142px;
+  margin: 19px 142px;
 }
 #materials img {
   width: 162px;
