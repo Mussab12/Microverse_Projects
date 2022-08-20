@@ -20,3 +20,9 @@
 .justify-center {
   justify-content: center;
 }
+.center {
+  text-align: center;
+}
+.justify-flex-end {
+  justify-content: end;
+}
