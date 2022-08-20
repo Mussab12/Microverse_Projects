@@ -63,3 +63,14 @@ body,
   padding: 10px 44px;
   cursor: pointer;
 }
+
+/* Premium Material Section */
+.materials-container {
+  margin: 109px 142px;
+}
+#materials img {
+  width: 162px;
+}
+.description-1 {
+  margin-left: 26px;
+}
